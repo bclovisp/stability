@@ -1,0 +1,1519 @@
+{
+ "version": 6,
+ "week": {
+  "1": "A",
+  "2": "B",
+  "3": "C",
+  "4": "A",
+  "5": "B",
+  "6": "D",
+  "0": null
+ },
+ "floor": {
+  "short": 3,
+  "long": 1,
+  "order": [
+   "A",
+   "B",
+   "A",
+   "C"
+  ]
+ },
+ "full": {
+  "short": 4,
+  "long": 2
+ },
+ "sessions": {
+  "A": {
+   "name": "Membres inférieurs",
+   "kind": "short",
+   "minutes": 10,
+   "stable": 3,
+   "slots": [
+    {
+     "id": "A1",
+     "options": [
+      {
+       "key": "A1",
+       "ex": "breath",
+       "ladder": [
+        "3 respirations"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "options": [
+      {
+       "key": "A2",
+       "ex": "bridgeIso",
+       "ladder": [
+        "2 × 15 s",
+        "2 × 20 s",
+        "2 × 25 s",
+        "2 × 30 s"
+       ],
+       "holds": [
+        15,
+        20,
+        25,
+        30
+       ]
+      }
+     ]
+    },
+    {
+     "id": "A3",
+     "options": [
+      {
+       "key": "A3",
+       "ex": "abduction",
+       "ladder": [
+        "1 × 4 tenues de 5 s par côté",
+        "2 × 4 tenues de 5 s par côté"
+       ],
+       "holds": [
+        5,
+        5
+       ]
+      },
+      {
+       "key": "A3w",
+       "ex": "lateralWalk",
+       "intro": "lateralWalk",
+       "ladder": [
+        "1 × 8 pas de chaque côté",
+        "1 × 10 pas de chaque côté",
+        "1 × 12 pas de chaque côté",
+        "2 × 12 pas de chaque côté"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "A4",
+     "options": [
+      {
+       "key": "A4",
+       "ex": "calf",
+       "ladder": [
+        "1 × 8",
+        "1 × 10",
+        "1 × 12",
+        "2 × 12"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "A5",
+     "options": [
+      {
+       "key": "A5",
+       "ex": "balance",
+       "ladder": [
+        "2 × 15 s par côté",
+        "2 × 20 s par côté",
+        "2 × 25 s par côté",
+        "2 × 30 s par côté",
+        "2 × 30 s par côté, yeux fermés"
+       ],
+       "holds": [
+        15,
+        20,
+        25,
+        30,
+        30
+       ]
+      }
+     ]
+    }
+   ],
+   "label": "A"
+  },
+  "B": {
+   "name": "Tronc et épaules",
+   "kind": "short",
+   "minutes": 10,
+   "stable": 3,
+   "slots": [
+    {
+     "id": "B1",
+     "options": [
+      {
+       "key": "B1",
+       "ex": "breath",
+       "ladder": [
+        "3 respirations"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B2",
+     "options": [
+      {
+       "key": "B2",
+       "ex": "deadBug",
+       "ladder": [
+        "1 × 5 par côté",
+        "1 × 6 par côté",
+        "2 × 6 par côté"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B3",
+     "options": [
+      {
+       "key": "B3r",
+       "ex": "extRotBand",
+       "ladder": [
+        "1 × 12",
+        "2 × 12"
+       ]
+      },
+      {
+       "key": "B3w",
+       "ex": "wallSlide",
+       "ladder": [
+        "1 × 8",
+        "2 × 8"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B4",
+     "options": [
+      {
+       "key": "B4",
+       "ex": "bandRow",
+       "ladder": [
+        "1 × 12",
+        "2 × 12"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B5",
+     "options": [
+      {
+       "key": "B5",
+       "ex": "sidePlank",
+       "ladder": [
+        "1 × 15 s par côté",
+        "1 × 20 s par côté",
+        "2 × 20 s par côté"
+       ],
+       "holds": [
+        15,
+        20,
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B6",
+     "options": [
+      {
+       "key": "B6",
+       "ex": "pushFist",
+       "ladder": [
+        "1 × 8, contre le mur",
+        "1 × 10, contre le mur",
+        "1 × 12, contre le mur",
+        "2 × 12, contre le mur",
+        "2 × 8, sur un bureau ou un plan de travail",
+        "2 × 10, sur un bureau ou un plan de travail",
+        "2 × 12, sur un bureau ou un plan de travail",
+        "2 × 8, sur une chaise calée contre un mur",
+        "2 × 10, sur une chaise calée contre un mur",
+        "2 × 12, sur une chaise calée contre un mur"
+       ]
+      }
+     ]
+    }
+   ],
+   "label": "B"
+  },
+  "C": {
+   "name": "Maison ou hôtel",
+   "kind": "long",
+   "minutes": 30,
+   "stable": 2,
+   "slots": [
+    {
+     "id": "C1",
+     "options": [
+      {
+       "key": "C1",
+       "ex": "warmup",
+       "ladder": [
+        "3 respirations, puis pont 1 × 20 s"
+       ],
+       "holds": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C2",
+     "options": [
+      {
+       "key": "C2",
+       "ex": "sitToStand",
+       "ladder": [
+        "2 × 6",
+        "2 × 8",
+        "2 × 10",
+        "3 × 10",
+        "3 × 10, sac lesté porté devant"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C2b",
+     "intro": "wallSit",
+     "options": [
+      {
+       "key": "C2b",
+       "ex": "wallSit",
+       "ladder": [
+        "2 × 20 s",
+        "2 × 25 s",
+        "2 × 30 s",
+        "2 × 35 s",
+        "2 × 40 s",
+        "2 × 45 s",
+        "3 × 45 s"
+       ],
+       "holds": [
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        45
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C3",
+     "options": [
+      {
+       "key": "C3",
+       "ex": "bandRow",
+       "ladder": [
+        "2 × 10",
+        "2 × 12",
+        "2 × 15",
+        "3 × 15",
+        "3 × 15, bande plus dure"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C4",
+     "options": [
+      {
+       "key": "C4",
+       "ex": "bridge",
+       "until": "splitSquatIso",
+       "ladder": [
+        "2 × 8",
+        "2 × 10",
+        "2 × 12",
+        "3 × 12",
+        "3 × 12, sac lesté"
+       ]
+      },
+      {
+       "key": "C4s",
+       "ex": "splitSquat",
+       "intro": "splitSquatIso",
+       "ladder": [
+        "1 × 15 s par côté",
+        "1 × 20 s par côté",
+        "1 × 25 s par côté",
+        "1 × 30 s par côté",
+        "2 × 30 s par côté",
+        "2 × 6 par côté, en mouvement"
+       ],
+       "holds": [
+        15,
+        20,
+        25,
+        30,
+        30,
+        null
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C5",
+     "options": [
+      {
+       "key": "C5",
+       "ex": "extRotLying",
+       "ladder": [
+        "1 × 10 par côté, sans charge",
+        "1 × 12 par côté, sans charge",
+        "1 × 12 par côté, 1 kg",
+        "2 × 12 par côté, 1 kg",
+        "2 × 12 par côté, 2 kg"
+       ],
+       "until": "hinge"
+      },
+      {
+       "key": "C5h",
+       "ex": "hingeWall",
+       "intro": "hinge",
+       "ladder": [
+        "1 × 5 par côté",
+        "1 × 6 par côté",
+        "1 × 8 par côté",
+        "2 × 8 par côté",
+        "2 × 8 par côté, haltère léger"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C6",
+     "options": [
+      {
+       "key": "C6",
+       "ex": "pallof",
+       "ladder": [
+        "1 × 6 par côté",
+        "1 × 8 par côté",
+        "1 × 10 par côté",
+        "2 × 10 par côté"
+       ]
+      }
+     ]
+    }
+   ],
+   "label": "C"
+  },
+  "D": {
+   "name": "Gym",
+   "kind": "long",
+   "minutes": 30,
+   "stable": 2,
+   "slots": [
+    {
+     "id": "D1",
+     "options": [
+      {
+       "key": "D1",
+       "ex": "elliptical",
+       "until": "intervals",
+       "ladder": [
+        "4 min faciles"
+       ],
+       "holds": [
+        240
+       ]
+      },
+      {
+       "key": "D1i",
+       "ex": "intervals",
+       "intro": "intervals",
+       "ladder": [
+        "2 min faciles, puis 4 fois 30 s soutenues et 30 s faciles"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "D2",
+     "options": [
+      {
+       "key": "D2",
+       "ex": "hipThrust",
+       "ladder": [
+        "2 × 8 sans charge",
+        "2 × 10 sans charge",
+        "2 × 12 sans charge",
+        "3 × 12 sans charge",
+        "3 × 12, haltère sur les hanches"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "D3",
+     "options": [
+      {
+       "key": "D3",
+       "ex": "chestRow",
+       "ladder": [
+        "2 × 10",
+        "2 × 12",
+        "3 × 12"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "D4",
+     "options": [
+      {
+       "key": "D4",
+       "ex": "sitToStandBench",
+       "until": "wallSit",
+       "ladder": [
+        "2 × 6",
+        "2 × 8",
+        "2 × 10",
+        "3 × 10",
+        "3 × 10, haltères légers le long du corps"
+       ]
+      },
+      {
+       "key": "D4w",
+       "ex": "wallSit",
+       "intro": "wallSit",
+       "ladder": [
+        "2 × 20 s",
+        "2 × 25 s",
+        "2 × 30 s",
+        "2 × 35 s",
+        "2 × 40 s",
+        "2 × 45 s",
+        "3 × 45 s"
+       ],
+       "holds": [
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        45
+       ]
+      }
+     ]
+    },
+    {
+     "id": "D5",
+     "options": [
+      {
+       "key": "D5",
+       "ex": "calf",
+       "until": "stepDown",
+       "ladder": [
+        "1 × 10",
+        "1 × 12",
+        "2 × 12",
+        "2 × 12, haltère léger le long du corps"
+       ]
+      },
+      {
+       "key": "D5s",
+       "ex": "stepDown",
+       "intro": "stepDown",
+       "ladder": [
+        "1 × 5 par côté",
+        "1 × 6 par côté",
+        "1 × 8 par côté",
+        "2 × 8 par côté",
+        "3 × 8 par côté"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "D6",
+     "options": [
+      {
+       "key": "D6",
+       "ex": "plankElbows",
+       "ladder": [
+        "2 × 15 s",
+        "2 × 20 s",
+        "2 × 25 s",
+        "2 × 30 s"
+       ],
+       "holds": [
+        15,
+        20,
+        25,
+        30
+       ],
+       "until": "floorPress"
+      },
+      {
+       "key": "D6p",
+       "ex": "floorPress",
+       "intro": "floorPress",
+       "ladder": [
+        "2 × 10, charge que tu pourrais pousser 20 fois",
+        "2 × 12",
+        "3 × 12",
+        "3 × 10, haltères de 2 kg de plus",
+        "3 × 12, haltères de 2 kg de plus"
+       ]
+      }
+     ]
+    }
+   ],
+   "label": "D"
+  },
+  "R": {
+   "label": "Encadrée",
+   "name": "Reformer ou kiné",
+   "kind": "long",
+   "minutes": 60,
+   "stable": 2,
+   "replaces": "D",
+   "slots": [],
+   "noProgress": true,
+   "flareText": "Signale cette réaction à ton instructeur ou à ton kiné avant la prochaine séance encadrée, et garde tes doses habituelles sur les autres séances."
+  },
+  "S": {
+   "label": "Ski",
+   "name": "Routine du matin",
+   "kind": "short",
+   "minutes": 5,
+   "stable": 99,
+   "noProgress": true,
+   "phaseOnly": "trip",
+   "flareText": "Raccourcis la journée de ski, reste sur des pistes faciles et fais de vraies pauses. Si ça persiste, montre ce relevé à un médecin.",
+   "slots": [
+    {
+     "id": "S1",
+     "options": [
+      {
+       "key": "S1",
+       "ex": "breath",
+       "ladder": [
+        "3 respirations"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "S2",
+     "options": [
+      {
+       "key": "S2",
+       "ex": "bridgeIso",
+       "ladder": [
+        "2 × 20 s"
+       ],
+       "holds": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "S3",
+     "options": [
+      {
+       "key": "S3",
+       "ex": "balance",
+       "ladder": [
+        "2 × 20 s par côté"
+       ],
+       "holds": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "S4",
+     "options": [
+      {
+       "key": "S4",
+       "ex": "wallSit",
+       "ladder": [
+        "1 × 30 s"
+       ],
+       "holds": [
+        30
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "intros": [
+  {
+   "id": "wallSit",
+   "name": "Chaise contre le mur",
+   "week": 3,
+   "types": [
+    "C",
+    "D"
+   ],
+   "text": "S'ajoute dans C après l'assis debout, et remplace l'assis debout au banc dans D."
+  },
+  {
+   "id": "floorPress",
+   "name": "Développé au sol, prise neutre",
+   "week": 4,
+   "types": [
+    "D"
+   ],
+   "text": "Remplace la planche sur les coudes dans D ; la planche latérale reste en B. Commence avec une charge que tu pourrais pousser 20 fois, nettement en dessous de tes essais récents."
+  },
+  {
+   "id": "stepDown",
+   "name": "Descente de marche lente",
+   "date": "2026-11-02",
+   "types": [
+    "D"
+   ],
+   "text": "Remplace les mollets dans D, qui restent travaillés en A. C'est un exercice de freinage : surveille les courbatures."
+  },
+  {
+   "id": "lateralWalk",
+   "name": "Marche latérale avec mini band",
+   "date": "2026-11-16",
+   "types": [
+    "A"
+   ],
+   "text": "En alternance avec l'abduction couchée dans A."
+  },
+  {
+   "id": "splitSquatIso",
+   "name": "Split squat",
+   "date": "2026-11-23",
+   "types": [
+    "C"
+   ],
+   "text": "Remplace le pont dans C, d'abord en tenue immobile. Si le bas du dos ou le bassin réagit, c'est le premier exercice à retirer."
+  },
+  {
+   "id": "intervals",
+   "name": "Intervalles sur l'elliptique",
+   "date": "2026-12-01",
+   "types": [
+    "D"
+   ],
+   "text": "Remplacent les 4 minutes faciles au début de D."
+  },
+  {
+   "id": "hinge",
+   "name": "Soulevé sur une jambe, main au mur",
+   "date": "2027-01-11",
+   "types": [
+    "C"
+   ],
+   "text": "Remplace la rotation externe couché dans C ; la rotation externe reste en B. Petite amplitude au début. Si le bas du dos ou le bassin réagit, on le retire."
+  }
+ ],
+ "exercises": {
+  "breath": {
+   "name": "Respiration 90/90",
+   "cue": "Sur le dos, pieds à plat contre un mur, hanches et genoux à 90°. Inspire 4 s par le nez en laissant le ventre, le bas des côtes et le périnée se relâcher. Expire 6 à 8 s par la bouche, en laissant les côtes descendre.",
+   "detail": {
+    "why": "Calmer la tension du tronc et du bassin, et apprendre à respirer sans bloquer ni cambrer.",
+    "setup": "Allongé sur le dos, sur un tapis. Pieds à plat contre un mur, hanches et genoux pliés à 90°. Bras le long du corps, tête posée.",
+    "steps": [
+     "Inspire par le nez pendant 4 s en laissant le ventre, les flancs et le bas du dos s'élargir, comme une ceinture qui se desserre.",
+     "Laisse le périnée se relâcher pendant l'inspiration.",
+     "Expire lentement par la bouche pendant 6 à 8 s, comme pour faire de la buée sur une vitre : les côtes descendent vers le bassin.",
+     "Marque une courte pause poumons vides, puis recommence."
+    ],
+    "breath": "C'est tout l'exercice : lent, sans forcer.",
+    "feel": "Le bas du dos qui se pose doucement au sol à l'expiration, les épaules et le cou détendus.",
+    "avoid": [
+     "Gonfler seulement la poitrine ou hausser les épaules.",
+     "Forcer l'expiration au point de contracter le cou.",
+     "Pousser le ventre vers le bas en bloquant."
+    ],
+    "easier": "Sans le mur : mollets posés à plat sur une chaise.",
+    "video": "90 90 breathing exercise"
+   }
+  },
+  "bridgeIso": {
+   "name": "Pont isométrique",
+   "cue": "Pieds écartés de la largeur des hanches, paumes au sol sans appuyer. Monte jusqu'à l'alignement épaules, hanches, genoux, sans aller plus haut. Crampe dans les ischios : rapproche les pieds. Bas du dos qui travaille : expire et rentre les côtes.",
+   "detail": {
+    "why": "Renforcer les fessiers en tenue immobile, sans charger le bas du dos.",
+    "setup": "Sur le dos, genoux pliés, pieds à plat écartés de la largeur des hanches, talons à environ une main et demie des fesses. Bras le long du corps, paumes au sol sans appuyer.",
+    "steps": [
+     "Expire et rentre légèrement les côtes.",
+     "Pousse dans les talons et monte le bassin jusqu'à l'alignement épaules, hanches, genoux.",
+     "Tiens en respirant normalement.",
+     "Redescends lentement, vertèbre par vertèbre."
+    ],
+    "breath": "Respire calmement pendant la tenue, sans bloquer.",
+    "feel": "Les deux fessiers, et un peu l'arrière des cuisses.",
+    "avoid": [
+     "Monter trop haut en cambrant : le bas du dos prend le relais.",
+     "Laisser les genoux s'écarter ou se rapprocher : ils restent dans l'axe des pieds.",
+     "Pousser avec les mains ou la nuque.",
+     "Crampe dans les ischios : rapproche les pieds des fesses."
+    ],
+    "easier": "Monter moins haut et tenir moins longtemps.",
+    "video": "glute bridge hold proper form"
+   }
+  },
+  "abduction": {
+   "name": "Abduction couchée",
+   "cue": "Jambe du dessous pliée, jambe du dessus tendue légèrement en arrière du corps, pointe du pied tournée vers le sol, talon qui mène. Monte de 20 cm seulement. Si tu sens la taille ou le devant de la hanche plutôt que le côté de la fesse, recule la jambe et monte moins haut.",
+   "detail": {
+    "why": "Renforcer le moyen fessier, qui tient le bassin horizontal quand tu es sur une jambe.",
+    "setup": "Couché sur le côté, dos contre un mur si possible. Jambe du dessous pliée pour la stabilité, jambe du dessus tendue dans l'axe du corps, légèrement en arrière. Tête posée sur le bras, hanches empilées l'une à la verticale de l'autre.",
+    "steps": [
+     "Tourne légèrement la pointe du pied du dessus vers le sol : c'est le talon qui mène.",
+     "Monte la jambe d'environ 20 cm, sans laisser le bassin rouler vers l'arrière.",
+     "Tiens 5 s en haut.",
+     "Redescends lentement, sans poser complètement la jambe entre deux répétitions."
+    ],
+    "breath": "Expire en montant, respire normalement pendant la tenue.",
+    "feel": "Le côté de la fesse, en haut et en arrière de la hanche.",
+    "avoid": [
+     "Monter plus haut que 20 à 30 cm : c'est alors la taille et le bas du dos qui travaillent.",
+     "Ramener la jambe vers l'avant : c'est alors le devant de la hanche qui travaille.",
+     "Rouler le bassin vers l'arrière."
+    ],
+    "easier": "Jambe du dessus pliée, genou à 90°.",
+    "video": "side lying hip abduction proper form"
+   }
+  },
+  "lateralWalk": {
+   "name": "Marche latérale avec mini band",
+   "cue": "Mini band autour du bas des cuisses, genoux légèrement fléchis. Pas latéraux lents, sans laisser les genoux rentrer vers l'intérieur.",
+   "detail": {
+    "why": "Renforcer les fessiers en déplacement latéral et apprendre à garder les genoux dans l'axe.",
+    "setup": "Mini band autour du bas des cuisses. Pieds écartés de la largeur des hanches, genoux légèrement fléchis, hanches un peu en arrière, buste droit.",
+    "steps": [
+     "Fais un petit pas de côté, de la largeur d'un pied environ, en gardant la bande tendue.",
+     "Ramène l'autre pied sans que les pieds se touchent.",
+     "Garde la même hauteur tout du long, sans te redresser entre les pas.",
+     "Fais le nombre de pas indiqué, puis repars dans l'autre sens."
+    ],
+    "breath": "Respiration libre et régulière.",
+    "feel": "Le côté des fesses, des deux côtés.",
+    "avoid": [
+     "Laisser les genoux rentrer vers l'intérieur.",
+     "Balancer le buste d'un côté à l'autre.",
+     "Faire de grands pas qui relâchent la bande."
+    ],
+    "easier": "Bande plus légère, ou sans bande.",
+    "video": "banded lateral walk proper form"
+   }
+  },
+  "calf": {
+   "name": "Élévation des mollets",
+   "cue": "Debout, pieds parallèles, bout des doigts contre un mur pour l'équilibre, sans t'appuyer. Monte en 2 s, tiens 1 s, descends en 3 s. Garde le poids sur la base du gros orteil.",
+   "detail": {
+    "why": "Renforcer les mollets et la voûte plantaire, utiles pour le pied, la cheville et l'équilibre.",
+    "setup": "Debout, pieds parallèles écartés de la largeur des hanches, bout des doigts contre un mur pour l'équilibre, sans t'y appuyer.",
+    "steps": [
+     "Monte sur la pointe des pieds en 2 s, le plus haut possible sans forcer.",
+     "Tiens 1 s en haut.",
+     "Redescends en 3 s jusqu'à poser les talons."
+    ],
+    "breath": "Expire en montant.",
+    "feel": "Les mollets, et un peu la plante des pieds.",
+    "avoid": [
+     "Rouler vers l'extérieur du pied : garde le poids sur la base du gros orteil.",
+     "Rebondir en bas.",
+     "Pousser avec les mains."
+    ],
+    "easier": "Monter moins haut.",
+    "video": "slow calf raises proper form"
+   }
+  },
+  "balance": {
+   "name": "Équilibre sur une jambe",
+   "cue": "Près d'un mur. Pied en trépied : talon, base du gros orteil, base du petit orteil. Genou très légèrement fléchi, bassin horizontal. Rattrape toi au mur du bout des doigts si besoin. Ça peut aussi se faire en te brossant les dents.",
+   "detail": {
+    "why": "Améliorer la stabilité du pied, de la cheville, du genou et du bassin.",
+    "setup": "Debout près d'un mur, à portée de main. Pied d'appui en trépied : talon, base du gros orteil, base du petit orteil.",
+    "steps": [
+     "Lève l'autre pied de quelques centimètres.",
+     "Genou d'appui très légèrement fléchi, bassin horizontal, regard droit devant.",
+     "Tiens le temps indiqué, puis change de jambe.",
+     "Si tu perds l'équilibre, touche le mur du bout des doigts, puis reprends."
+    ],
+    "breath": "Respiration calme.",
+    "feel": "Le pied et la cheville qui font de petites corrections : c'est exactement le travail recherché.",
+    "avoid": [
+     "Verrouiller le genou en extension.",
+     "Laisser tomber la hanche du côté de la jambe levée.",
+     "Crisper les orteils."
+    ],
+    "easier": "Pointe du pied libre posée au sol en appui léger.",
+    "video": "single leg balance exercise"
+   }
+  },
+  "deadBug": {
+   "name": "Dead bug",
+   "cue": "Sur le dos, bras tendus vers le plafond, hanches et genoux à 90°. Expire et allonge une jambe au ras du sol sans que le bas du dos décolle. Plus facile : le talon glisse au sol.",
+   "detail": {
+    "why": "Apprendre à stabiliser le tronc pendant que les membres bougent.",
+    "setup": "Sur le dos, bras tendus vers le plafond, hanches et genoux à 90°, tibias parallèles au sol. Bas du dos posé, sans l'écraser.",
+    "steps": [
+     "Expire et rentre légèrement les côtes.",
+     "Allonge lentement une jambe vers l'avant, talon au ras du sol, sans le poser.",
+     "Ramène la jambe, puis fais l'autre côté.",
+     "Garde les bras immobiles vers le plafond."
+    ],
+    "breath": "Expire pendant que la jambe s'allonge, inspire en la ramenant.",
+    "feel": "Les abdominaux profonds et les obliques, pas le bas du dos.",
+    "avoid": [
+     "Laisser le bas du dos se creuser quand la jambe s'éloigne : réduis alors l'amplitude.",
+     "Aller vite.",
+     "Bloquer la respiration."
+    ],
+    "easier": "Le talon glisse au sol au lieu de rester en l'air.",
+    "video": "dead bug exercise proper form"
+   }
+  },
+  "extRotBand": {
+   "name": "Rotation externe à la bande",
+   "cue": "Debout, coudes collés au corps et pliés à 90°, poignets droits, bande tenue entre les deux mains. Écarte les mains sans décoller les coudes, épaules détendues.",
+   "detail": {
+    "why": "Renforcer les rotateurs externes de l'épaule, qui gardent l'articulation centrée.",
+    "setup": "Debout, coudes collés au corps et pliés à 90°, mains devant toi, paumes vers le haut, bande tenue entre les deux mains, poignets droits.",
+    "steps": [
+     "Écarte les mains vers l'extérieur en gardant les coudes collés au corps.",
+     "Va aussi loin que possible sans que les coudes décollent ni que le dos se cambre.",
+     "Reviens lentement."
+    ],
+    "breath": "Expire en ouvrant.",
+    "feel": "L'arrière des épaules.",
+    "avoid": [
+     "Décoller les coudes pour aller plus loin.",
+     "Cambrer le dos ou pousser la poitrine en avant.",
+     "Plier les poignets."
+    ],
+    "easier": "Bande plus légère.",
+    "video": "band external rotation both arms"
+   }
+  },
+  "wallSlide": {
+   "name": "Glissé au mur",
+   "cue": "Face au mur, coudes et petits doigts contre le mur, mini band sur le bas des bras. Glisse vers le haut en poussant légèrement le mur. Laisse l'omoplate tourner et monter avec le bras ; évite seulement un haussement brutal de l'épaule.",
+   "detail": {
+    "why": "Entraîner l'omoplate à tourner et à glisser correctement quand le bras monte.",
+    "setup": "Debout face au mur, un pied devant l'autre. Coudes et petits doigts contre le mur à hauteur des épaules, mini band sur le bas des bras juste avant les poignets, poignets droits.",
+    "steps": [
+     "Pousse légèrement le mur, comme pour t'en éloigner d'un centimètre.",
+     "Écarte un peu les bras contre la bande.",
+     "Fais glisser les bras vers le haut en gardant le contact avec le mur.",
+     "Redescends lentement jusqu'à hauteur des épaules."
+    ],
+    "breath": "Expire en montant.",
+    "feel": "Le côté de la cage thoracique sous l'aisselle, et le haut du dos.",
+    "avoid": [
+     "Hausser brutalement les épaules vers les oreilles ; une légère montée de l'omoplate est normale.",
+     "Cambrer le bas du dos pour aller plus haut.",
+     "Appuyer sur les mains."
+    ],
+    "easier": "Sans bande, et moins haut.",
+    "video": "serratus wall slide"
+   }
+  },
+  "bandRow": {
+   "name": "Rowing à la bande",
+   "cue": "Debout, bande sur l'ancrage de porte à hauteur de poitrine, poignets droits. Laisse l'omoplate avancer quand les bras s'allongent, puis revenir naturellement pendant le tirage. Ne pince pas les omoplates avant de tirer.",
+   "detail": {
+    "why": "Renforcer le haut du dos et l'arrière des épaules en tirage.",
+    "setup": "Bande sur un ancrage de porte à hauteur de poitrine ; vérifie que la porte est bien fermée et que personne ne va l'ouvrir. Debout face à la porte, recule jusqu'à ce que la bande soit légèrement tendue bras tendus. Genoux souples, poignets droits.",
+    "steps": [
+     "Bras tendus, laisse les épaules avancer légèrement.",
+     "Tire les coudes vers l'arrière le long du corps ; l'omoplate revient naturellement pendant le tirage.",
+     "Marque une pause de 1 s, coudes près des côtes.",
+     "Reviens lentement jusqu'aux bras tendus."
+    ],
+    "breath": "Expire en tirant.",
+    "feel": "Entre et sous les omoplates, et l'arrière des épaules.",
+    "avoid": [
+     "Pincer les omoplates avant de commencer à tirer.",
+     "Hausser les épaules.",
+     "Tirer en pliant les poignets.",
+     "Te pencher en arrière."
+    ],
+    "easier": "Avance d'un pas pour détendre la bande.",
+    "video": "standing band row door anchor"
+   }
+  },
+  "sidePlank": {
+   "name": "Planche latérale sur le coude",
+   "cue": "Genoux pliés. Coude sous l'épaule, poing fermé, poignet droit. Hanches poussées vers l'avant pour aligner épaule, hanche et genou. Repousse le sol avec le coude.",
+   "detail": {
+    "why": "Renforcer les obliques et le côté des hanches, pour la stabilité latérale du tronc et du bassin.",
+    "setup": "Allongé sur le côté, coude sous l'épaule, bras au sol, poing fermé, poignet droit. Genoux pliés à 90°, épaules, hanches et genoux alignés.",
+    "steps": [
+     "Repousse le sol avec le coude.",
+     "Soulève les hanches jusqu'à la ligne épaule, hanche, genou.",
+     "Pousse légèrement les hanches vers l'avant.",
+     "Tiens le temps indiqué, redescends, puis change de côté."
+    ],
+    "breath": "Respire normalement pendant la tenue.",
+    "feel": "Le côté du tronc et la fesse du côté au sol.",
+    "avoid": [
+     "T'affaisser dans l'épaule, le cou qui s'enfonce.",
+     "Laisser les hanches reculer ou tomber.",
+     "Appuyer sur la paume : le poing reste fermé."
+    ],
+    "easier": "Tenue plus courte, hanches un peu moins hautes.",
+    "video": "modified side plank on knees"
+   }
+  },
+  "warmup": {
+   "name": "Échauffement",
+   "cue": "Respiration 90/90, puis pont isométrique.",
+   "detail": {
+    "why": "Mettre en route le tronc et les fessiers avant la séance.",
+    "setup": "Voir Respiration 90/90 et Pont isométrique.",
+    "steps": [
+     "3 respirations 90/90.",
+     "Pont isométrique tenu 20 s."
+    ],
+    "breath": "Lente et calme.",
+    "feel": "Rien de difficile : c'est une mise en route.",
+    "avoid": [
+     "Écourter : ces deux minutes préparent le reste de la séance."
+    ],
+    "easier": "",
+    "video": ""
+   }
+  },
+  "sitToStand": {
+   "name": "Assis debout sur chaise",
+   "cue": "Descends en 3 s, effleure la chaise sans t'asseoir, puis remonte. Genoux dans l'axe des pieds. Avec le sac : porté devant, bras croisés dessus, poignets libres.",
+   "detail": {
+    "why": "Renforcer les cuisses et les fessiers dans un geste du quotidien, avec une amplitude limitée par la chaise.",
+    "setup": "Chaise stable, contre un mur si elle glisse. Assis au bord, pieds écartés de la largeur des hanches, légèrement en arrière des genoux. Bras croisés sur la poitrine, ou sur le sac lesté porté devant.",
+    "steps": [
+     "Penche le buste vers l'avant, dos long.",
+     "Pousse dans les pieds pour te mettre debout, sans élan.",
+     "Redescends en 3 s en poussant les fesses vers l'arrière.",
+     "Effleure la chaise sans t'asseoir, puis remonte."
+    ],
+    "breath": "Expire en montant.",
+    "feel": "Les cuisses et les fessiers.",
+    "avoid": [
+     "Laisser les genoux rentrer vers l'intérieur.",
+     "Te laisser tomber sur la chaise.",
+     "Décoller les talons."
+    ],
+    "easier": "Chaise plus haute, ou coussin posé dessus.",
+    "video": "sit to stand exercise proper form"
+   }
+  },
+  "wallSit": {
+   "name": "Chaise contre le mur",
+   "cue": "Dos contre le mur, pieds à environ deux longueurs de pied du mur. Genoux peu fléchis au départ, alignés sur le deuxième orteil. Descends un peu plus bas seulement une fois 3 × 45 s atteint.",
+   "detail": {
+    "why": "Renforcer les cuisses en tenue, avant le travail de freinage.",
+    "setup": "Dos contre le mur, pieds à environ deux longueurs de pied du mur, écartés de la largeur des hanches.",
+    "steps": [
+     "Glisse le dos le long du mur jusqu'à une flexion légère des genoux.",
+     "Genoux alignés sur le deuxième orteil, poids réparti sur tout le pied.",
+     "Tiens en respirant.",
+     "Remonte en glissant le long du mur."
+    ],
+    "breath": "Respire calmement, sans bloquer.",
+    "feel": "Le devant des cuisses, qui chauffe progressivement.",
+    "avoid": [
+     "Genoux qui rentrent vers l'intérieur.",
+     "Descendre trop bas trop tôt : la profondeur vient seulement une fois 3 × 45 s atteint.",
+     "Pousser avec les mains sur les cuisses."
+    ],
+    "easier": "Moins de flexion.",
+    "video": "wall sit proper form"
+   }
+  },
+  "bridge": {
+   "name": "Pont",
+   "cue": "Mêmes repères que le pont isométrique, avec une tenue de 2 s en haut. Avec le sac posé sur les hanches, les mains stabilisent sans pousser.",
+   "detail": {
+    "why": "Renforcer les fessiers en mouvement, avec une tenue en haut.",
+    "setup": "Comme le pont isométrique. Avec le sac lesté : posé sur les hanches, sur une serviette ; les mains le stabilisent sans pousser.",
+    "steps": [
+     "Expire et monte jusqu'à l'alignement épaules, hanches, genoux.",
+     "Tiens 2 s en serrant les fessiers.",
+     "Redescends en 2 à 3 s, pose à peine le bassin, puis repars."
+    ],
+    "breath": "Expire en montant, inspire en descendant.",
+    "feel": "Les deux fessiers.",
+    "avoid": [
+     "Cambrer en haut.",
+     "Laisser les genoux s'écarter ou se rapprocher.",
+     "Rebondir en bas."
+    ],
+    "easier": "Monter moins haut.",
+    "video": "glute bridge proper form"
+   }
+  },
+  "splitSquat": {
+   "name": "Split squat",
+   "cue": "Un pied devant, un pied derrière, écartés de la largeur des hanches, bout des doigts contre un mur. Descends à moitié et tiens, poids sur le pied avant, bassin face à l'avant.",
+   "detail": {
+    "why": "Renforcer chaque jambe séparément, avant le travail sur une jambe.",
+    "setup": "Un pied devant, un pied derrière, environ une grande enjambée d'écart. Pieds écartés de la largeur des hanches, comme sur des rails. Talon arrière décollé, bout des doigts contre un mur ou un dossier pour l'équilibre.",
+    "steps": [
+     "Descends à moitié en pliant les deux genoux, buste droit.",
+     "Garde le poids surtout sur le pied avant, genou avant aligné sur le deuxième orteil.",
+     "Version immobile : tiens le temps indiqué. Version en mouvement : remonte en poussant dans le pied avant.",
+     "Change de côté."
+    ],
+    "breath": "Respire pendant la tenue ; en mouvement, expire en remontant.",
+    "feel": "La cuisse et la fesse de la jambe avant.",
+    "avoid": [
+     "Pieds sur une même ligne, comme sur une corde : l'équilibre se perd et le bassin se tord.",
+     "Laisser le bassin tourner : il reste face à l'avant.",
+     "Laisser le genou avant rentrer vers l'intérieur."
+    ],
+    "easier": "Descendre moins bas.",
+    "video": "split squat isometric hold"
+   }
+  },
+  "extRotLying": {
+   "name": "Rotation externe couché",
+   "cue": "Couché sur le côté, serviette roulée entre le coude et le flanc, coude à 90°, poignet droit. Monte la main vers le plafond en gardant le coude collé.",
+   "detail": {
+    "why": "Renforcer les rotateurs externes de l'épaule avec une charge légère.",
+    "setup": "Couché sur le côté, tête posée. Bras du dessus plié à 90°, coude contre le flanc sur une serviette roulée, main devant le ventre, poignet droit.",
+    "steps": [
+     "Monte la main vers le plafond en gardant le coude collé, comme une porte qui s'ouvre.",
+     "Arrête avant que le buste ne commence à rouler vers l'arrière.",
+     "Redescends lentement en 3 s."
+    ],
+    "breath": "Expire en montant.",
+    "feel": "L'arrière de l'épaule.",
+    "avoid": [
+     "Décoller le coude.",
+     "Rouler le buste vers l'arrière.",
+     "Plier le poignet."
+    ],
+    "easier": "Sans charge.",
+    "video": "side lying external rotation dumbbell"
+   }
+  },
+  "pallof": {
+   "name": "Pallof press",
+   "cue": "Bande sur l'ancrage de porte à hauteur de poitrine, debout de profil, poignets droits. Pousse les mains droit devant le sternum, tiens 3 s, sans laisser le tronc tourner.",
+   "detail": {
+    "why": "Renforcer le tronc en résistant à la rotation, ce qui stabilise le bassin et le bas du dos.",
+    "setup": "Bande sur l'ancrage de porte à hauteur de poitrine. Debout de profil par rapport à la porte, pieds écartés de la largeur des hanches, genoux souples. Mains jointes contre le sternum, tenant la bande, poignets droits. Recule jusqu'à ce que la bande soit tendue.",
+    "steps": [
+     "Pousse les mains droit devant toi jusqu'aux bras tendus.",
+     "Tiens 3 s sans laisser le tronc ni les mains tourner vers la porte.",
+     "Ramène lentement les mains au sternum.",
+     "Fais les répétitions, puis change de côté par rapport à la porte."
+    ],
+    "breath": "Expire en poussant.",
+    "feel": "Les abdominaux et les obliques.",
+    "avoid": [
+     "Tourner les épaules vers la porte.",
+     "Cambrer ou reculer les hanches.",
+     "Hausser les épaules."
+    ],
+    "easier": "Avance vers la porte pour détendre la bande.",
+    "video": "pallof press band"
+   }
+  },
+  "elliptical": {
+   "name": "Elliptique",
+   "cue": "Allure facile. Plutôt que le vélo.",
+   "detail": {
+    "why": "Échauffement cardio sans impact et sans position assise.",
+    "setup": "Pieds à plat sur les pédales, buste droit, mains posées légèrement sur les poignées.",
+    "steps": [
+     "Allure facile : tu peux parler normalement.",
+     "Résistance basse."
+    ],
+    "breath": "Libre.",
+    "feel": "Un léger réchauffement.",
+    "avoid": [
+     "Te pencher sur les poignées."
+    ],
+    "easier": "",
+    "video": ""
+   }
+  },
+  "intervals": {
+   "name": "Intervalles sur l'elliptique",
+   "cue": "Soutenu veut dire essoufflé mais capable de parler par phrases courtes.",
+   "detail": {
+    "why": "Développer l'endurance cardio et l'endurance des jambes.",
+    "setup": "Sur l'elliptique, comme pour l'échauffement.",
+    "steps": [
+     "2 min faciles.",
+     "30 s soutenues : essoufflé, mais capable de parler par phrases courtes.",
+     "30 s faciles.",
+     "Répète 4 fois l'alternance soutenu, facile."
+    ],
+    "breath": "Libre.",
+    "feel": "Un essoufflement net mais contrôlé sur les passages soutenus.",
+    "avoid": [
+     "Partir trop fort sur le premier passage : les 4 doivent tenir au même rythme."
+    ],
+    "easier": "Passages soutenus moins intenses.",
+    "video": ""
+   }
+  },
+  "hipThrust": {
+   "name": "Hip thrust au banc",
+   "cue": "Haut du dos sur le banc. Monte jusqu'à l'alignement, sans cambrer. Avec l'haltère, les mains stabilisent sans pousser.",
+   "detail": {
+    "why": "Renforcer les fessiers sur une plus grande amplitude que le pont au sol.",
+    "setup": "Assis au sol, bas des omoplates contre le bord long du banc. Pieds à plat, écartés de la largeur des hanches. Avec l'haltère : posé en travers des hanches sur une serviette, tenu des deux mains.",
+    "steps": [
+     "Expire, rentre les côtes, menton légèrement rentré.",
+     "Pousse dans les talons et monte les hanches jusqu'à ce que buste et cuisses soient alignés, tibias verticaux.",
+     "Tiens 2 s en serrant les fessiers.",
+     "Redescends lentement."
+    ],
+    "breath": "Expire en montant.",
+    "feel": "Les fessiers.",
+    "avoid": [
+     "Cambrer en haut : les côtes restent basses.",
+     "Pousser l'haltère avec les mains.",
+     "Pieds trop près : tu sens surtout les cuisses ; trop loin : surtout les ischios."
+    ],
+    "easier": "Moins d'amplitude, ou retour au pont au sol.",
+    "video": "hip thrust bench bodyweight proper form"
+   }
+  },
+  "chestRow": {
+   "name": "Rowing poitrine appuyée",
+   "cue": "Banc incliné, poitrine contre le dossier, un haltère dans chaque main, poignets droits. Charge que tu pourrais tirer 20 fois. Omoplates libres, comme pour le rowing à la bande.",
+   "detail": {
+    "why": "Renforcer le haut du dos sans charger le bas du dos, et sans appui sur les poignets.",
+    "setup": "Banc incliné à 30 ou 45°. Allongé sur le ventre, poitrine contre le dossier, pieds au sol. Un haltère dans chaque main, bras tendus vers le sol, paumes face à face, poignets droits.",
+    "steps": [
+     "Bras tendus, laisse les épaules descendre légèrement vers le sol.",
+     "Tire les coudes vers l'arrière le long du corps ; l'omoplate revient naturellement.",
+     "Marque une pause de 1 s en haut.",
+     "Redescends lentement jusqu'aux bras tendus."
+    ],
+    "breath": "Expire en tirant.",
+    "feel": "Entre et sous les omoplates.",
+    "avoid": [
+     "Décoller la poitrine du dossier.",
+     "Hausser les épaules.",
+     "Donner de l'élan."
+    ],
+    "easier": "Charge plus légère.",
+    "video": "chest supported dumbbell row incline bench"
+   }
+  },
+  "sitToStandBench": {
+   "name": "Assis debout au banc",
+   "cue": "Comme l'assis debout sur chaise. Avec charge : haltères légers le long du corps, poignets droits.",
+   "detail": {
+    "why": "Renforcer les cuisses et les fessiers, amplitude limitée par le banc.",
+    "setup": "Assis au bord du banc, pieds écartés de la largeur des hanches, légèrement en arrière des genoux. Avec charge : haltères légers le long du corps, poignets droits.",
+    "steps": [
+     "Penche le buste vers l'avant, dos long.",
+     "Pousse dans les pieds pour te mettre debout, sans élan.",
+     "Redescends en 3 s, fesses vers l'arrière.",
+     "Effleure le banc sans t'asseoir, puis remonte."
+    ],
+    "breath": "Expire en montant.",
+    "feel": "Les cuisses et les fessiers.",
+    "avoid": [
+     "Genoux qui rentrent vers l'intérieur.",
+     "Te laisser tomber sur le banc.",
+     "Laisser les haltères tirer les épaules vers l'avant."
+    ],
+    "easier": "Sans charge.",
+    "video": "box squat to bench bodyweight"
+   }
+  },
+  "stepDown": {
+   "name": "Descente de marche lente",
+   "cue": "Debout sur une jambe sur une marche basse. Descends l'autre talon vers le sol en 3 s, effleure, remonte. Genou aligné sur le deuxième orteil, bassin horizontal, bout des doigts sur la rampe.",
+   "detail": {
+    "why": "Apprendre à freiner sur une jambe en gardant le genou dans l'axe.",
+    "setup": "Debout sur une jambe sur une marche basse, de 10 à 20 cm. L'autre pied dans le vide, devant. Bout des doigts sur la rampe ou le mur.",
+    "steps": [
+     "Plie lentement le genou d'appui en poussant les fesses légèrement vers l'arrière.",
+     "Descends l'autre talon vers le sol en 3 s.",
+     "Effleure le sol du talon, sans y mettre de poids.",
+     "Remonte en poussant dans le pied d'appui."
+    ],
+    "breath": "Expire en remontant.",
+    "feel": "La cuisse et la fesse de la jambe d'appui. C'est l'exercice qui donne le plus de courbatures : reste sur la dose.",
+    "avoid": [
+     "Laisser le genou d'appui rentrer vers l'intérieur.",
+     "Laisser le bassin s'incliner du côté de la jambe libre.",
+     "Mettre du poids sur le talon libre."
+    ],
+    "easier": "Marche plus basse.",
+    "video": "eccentric step down exercise"
+   }
+  },
+  "plankElbows": {
+   "name": "Planche sur les coudes",
+   "cue": "Genoux au sol, coudes sous les épaules, poings fermés, poignets droits. Repousse le sol avec les coudes et garde le bassin neutre, sans creuser.",
+   "detail": {
+    "why": "Renforcer le tronc et les stabilisateurs des épaules sans charger les poignets.",
+    "setup": "Coudes sous les épaules, bras au sol, poings fermés, poignets droits. Genoux au sol, en arrière des hanches, pour aligner épaules, hanches et genoux.",
+    "steps": [
+     "Repousse le sol avec les coudes : le haut du dos s'arrondit à peine.",
+     "Rentre légèrement les côtes, bassin neutre.",
+     "Tiens en respirant."
+    ],
+    "breath": "Respire normalement, sans bloquer.",
+    "feel": "Les abdominaux et le tour des épaules.",
+    "avoid": [
+     "Creuser le bas du dos.",
+     "T'affaisser entre les omoplates.",
+     "Relever les fesses."
+    ],
+    "easier": "Tenue plus courte.",
+    "video": "kneeling forearm plank proper form"
+   }
+  },
+  "hingeWall": {
+   "name": "Soulevé sur une jambe, main au mur",
+   "cue": "Debout sur une jambe, bout des doigts d'une main contre le mur. Penche le buste en poussant la hanche vers l'arrière, dos long, genou d'appui légèrement fléchi, jusqu'à sentir l'arrière de la cuisse, sans chercher l'amplitude. Remonte en serrant la fesse.",
+   "detail": {
+    "why": "Renforcer l'arrière des cuisses et les fessiers dans la charnière de hanche, une jambe à la fois.",
+    "setup": "Debout sur une jambe, genou légèrement fléchi, l'autre pied juste décollé du sol. Bout des doigts d'une main contre le mur, sur le côté.",
+    "steps": [
+     "Pousse la hanche vers l'arrière et penche le buste, dos long, comme pour fermer une porte avec les fesses.",
+     "La jambe libre part vers l'arrière dans le prolongement du buste.",
+     "Descends seulement jusqu'à sentir l'arrière de la cuisse.",
+     "Remonte en serrant la fesse de la jambe d'appui."
+    ],
+    "breath": "Inspire en descendant, expire en remontant.",
+    "feel": "L'arrière de la cuisse et la fesse de la jambe d'appui.",
+    "avoid": [
+     "Arrondir le dos pour descendre plus bas.",
+     "Ouvrir le bassin : la hanche de la jambe libre reste tournée vers le sol.",
+     "Verrouiller le genou d'appui."
+    ],
+    "easier": "Amplitude plus petite, pointe du pied libre posée derrière.",
+    "video": "single leg romanian deadlift wall supported"
+   }
+  },
+  "pushFist": {
+   "name": "Pompes inclinées sur les poings",
+   "cue": "Poings fermés et serrés, ou poignées de pompes, poignets dans le prolongement des bras, appui sur les jointures de l'index et du majeur. Corps gainé, descends en 3 s, repousse sans élan.",
+   "detail": {
+    "why": "Retrouver le geste de poussée en apprenant d'abord à stabiliser le poing et le poignet. La charge augmente seulement en baissant l'inclinaison.",
+    "setup": "Face au mur, puis au bureau, puis à une chaise calée contre un mur, selon ton palier. Poings fermés à hauteur de poitrine, un peu plus écartés que les épaules, ou poignées de pompes. Appui sur les jointures de l'index et du majeur, poignet droit. Pieds en arrière, corps aligné de la tête aux talons.",
+    "steps": [
+     "Serre les poings et vérifie l'alignement des poignets avant de mettre du poids.",
+     "Mets le poids progressivement sur les poings.",
+     "Descends en 3 s, coudes à environ 45° du corps, jusqu'à ce que la poitrine approche du support.",
+     "Repousse sans élan, corps gainé.",
+     "Si un poing commence à basculer vers le pouce ou vers le petit doigt, arrête la série."
+    ],
+    "breath": "Inspire en descendant, expire en poussant.",
+    "feel": "La poitrine, l'avant des épaules et l'arrière des bras. Au poignet : de l'appui, jamais de torsion ni de douleur.",
+    "avoid": [
+     "Poser la main à plat : le poignet part en extension.",
+     "Laisser le poing glisser : sur une surface lisse, pose une serviette ou prends des poignées.",
+     "Creuser le dos ou laisser les hanches tomber.",
+     "Hausser les épaules."
+    ],
+    "easier": "Rapproche les pieds du support.",
+    "video": "incline knuckle push up"
+   }
+  },
+  "floorPress": {
+   "name": "Développé au sol, prise neutre",
+   "cue": "Allongé au sol, un haltère dans chaque main, paumes face à face, poignets droits. Descends en 3 s jusqu'à effleurer le sol avec l'arrière des bras, puis repousse.",
+   "detail": {
+    "why": "Renforcer la poussée avec une amplitude limitée par le sol, plus douce pour l'épaule, et une prise neutre pour le poignet.",
+    "setup": "Allongé sur le dos au sol, genoux pliés, pieds à plat. Un haltère dans chaque main, bras tendus à la verticale de la poitrine, paumes face à face. Le poids de l'haltère reste à la verticale du poignet, jamais en arrière.",
+    "steps": [
+     "Descends les haltères en 3 s, coudes à environ 45° du corps.",
+     "Arrête quand l'arrière des bras effleure le sol, sans y poser le poids.",
+     "Repousse vers le plafond sans verrouiller brutalement les coudes.",
+     "À la fin, ramène d'abord les haltères sur le ventre, puis roule sur le côté pour les poser."
+    ],
+    "breath": "Inspire en descendant, expire en poussant.",
+    "feel": "La poitrine et l'arrière des bras. Aucune douleur au poignet.",
+    "avoid": [
+     "Laisser les poignets partir en arrière sous le poids.",
+     "Faire rebondir les coudes sur le sol.",
+     "Prendre trop lourd trop vite."
+    ],
+    "easier": "Haltères plus légers.",
+    "video": "dumbbell floor press neutral grip"
+   }
+  }
+ },
+ "rules": [
+  "Effort : 4 à 5 sur 10 en semaines 1 et 2. Tu dois finir chaque séance en te disant que tu aurais pu en faire le double.",
+  "Douleur : +2 points au maximum pendant l'exercice, et retour à ton niveau habituel le lendemain matin.",
+  "Courbatures : modérées et disparues en 48 heures.",
+  "Poignet droit, dans l'axe du bras. Aucun appui sur la paume.",
+  "Tempo lent : 2 à 3 s à la descente, jamais d'élan.",
+  "Même volume des deux côtés.",
+  "Pour te relever du sol : roule sur le côté, pousse sur le coude, reste assis quelques respirations, puis seulement debout.",
+  "Au sol, toujours sur un tapis ou une serviette pliée."
+ ],
+ "logic": [
+  "La semaine compte, pas le jour : l'app propose la séance qui reste à faire cette semaine (en priorité celle prévue ce jour là), jamais une séance longue moins de 48 heures après la précédente. Tu peux toujours en choisir une autre.",
+  "Autour des séjours ski : semaine allégée avant le départ, routine de 5 minutes chaque matin de ski, semaine de reprise au retour. Aucune montée de palier ni nouvel exercice pendant ces trois périodes ; une redescente reste possible si besoin.",
+  "Ton niveau habituel est la médiane de tes points du matin des 7 jours précédents. Un écart de 1 point est toléré comme bruit de mesure.",
+  "Une séance est bien tolérée si l'effort reste sous 7 sur 10, la douleur ne monte pas de plus de 2 points pendant la séance, la technique est propre, et le lendemain matin tu es revenu à ton niveau habituel, sans courbatures fortes. Des courbatures 3 matins de suite la rendent non tolérée.",
+  "Une séance sans point du matin le lendemain n'est pas évaluée : elle ne compte ni pour ni contre.",
+  "Montée proposée après 3 séances A ou B bien tolérées de suite, ou 2 séances C ou D, depuis le dernier changement. Une seule variable change, sur un ou deux exercices au maximum.",
+  "Poussée : douleur au réveil supérieure de plus de 2 points à ton niveau habituel, courbatures fortes, courbatures 3 matins de suite, ou douleur de plus de 2 points pendant une séance. L'app propose alors de revenir sur la dernière montée de la séance concernée, ou de redescendre d'un palier, et bloque les montées sur cette séance pendant une semaine.",
+  "Nouveaux exercices : proposés à partir de leur date, un par un, quand les séances concernées sont bien tolérées.",
+  "Rien ne change sans ta validation."
+ ],
+ "targetOrder": [
+  "A",
+  "B",
+  "C",
+  "A",
+  "B",
+  "D"
+ ],
+ "tests": {
+  "every": 14,
+  "intro": "Toutes les deux semaines, pour suivre tes progrès : des repères, pas des barrières. Arrête chaque tenue à 60 s, ou dès que la technique se dégrade.",
+  "items": [
+   {
+    "key": "balL",
+    "label": "Équilibre sur la jambe gauche, yeux ouverts",
+    "unit": "secondes",
+    "max": 60
+   },
+   {
+    "key": "balR",
+    "label": "Équilibre sur la jambe droite, yeux ouverts",
+    "unit": "secondes",
+    "max": 60
+   },
+   {
+    "key": "spL",
+    "label": "Planche latérale genoux, sur le coude gauche",
+    "unit": "secondes",
+    "max": 60
+   },
+   {
+    "key": "spR",
+    "label": "Planche latérale genoux, sur le coude droit",
+    "unit": "secondes",
+    "max": 60
+   },
+   {
+    "key": "row",
+    "label": "Rowing à la bande, répétitions propres, toujours la même bande",
+    "unit": "répétitions",
+    "max": 100
+   }
+  ]
+ },
+ "videoNote": "Les vidéos montrent parfois des variantes : garde les consignes de l'app, en particulier poignet droit et aucun appui sur la paume.",
+ "phases": [
+  {
+   "id": "xmasTaper",
+   "kind": "taper",
+   "from": "2026-12-21",
+   "to": "2026-12-26",
+   "title": "Semaine allégée avant le ski",
+   "text": "Fais les séances à la moitié de leur dose : moitié des séries, ou moitié des répétitions. Aucun nouvel exercice, aucune montée de palier.",
+   "note": "Semaine allégée : moitié de chaque dose.",
+   "checklist": true
+  },
+  {
+   "id": "xmasTrip",
+   "kind": "trip",
+   "from": "2026-12-27",
+   "to": "2027-01-03",
+   "skiFrom": "2026-12-28",
+   "skiTo": "2027-01-02",
+   "session": "S",
+   "title": "Séjour ski",
+   "text": "Pas de séance structurée : le ski est la séance. Chaque matin de ski, la routine de 5 minutes. Ski tranquille : premiers jours courts, et arrête avant d'être épuisé. La semaine compte automatiquement pour ta série.",
+   "checklist": true
+  },
+  {
+   "id": "xmasBack",
+   "kind": "reprise",
+   "from": "2027-01-04",
+   "to": "2027-01-10",
+   "title": "Semaine de reprise",
+   "text": "Reprends les séances à la moitié de leur dose. Aucune montée de palier cette semaine ; la progression reprend le lundi 11 janvier.",
+   "note": "Semaine de reprise : moitié de chaque dose."
+  },
+  {
+   "id": "marTaper",
+   "kind": "taper",
+   "from": "2027-03-01",
+   "to": "2027-03-05",
+   "title": "Semaine allégée avant le ski",
+   "text": "Fais les séances à la moitié de leur dose : moitié des séries, ou moitié des répétitions. Aucun nouvel exercice, aucune montée de palier.",
+   "note": "Semaine allégée : moitié de chaque dose.",
+   "checklist": true
+  },
+  {
+   "id": "marTrip",
+   "kind": "trip",
+   "from": "2027-03-06",
+   "to": "2027-03-13",
+   "skiFrom": "2027-03-07",
+   "skiTo": "2027-03-12",
+   "session": "S",
+   "title": "Séjour ski",
+   "text": "Pas de séance structurée : le ski est la séance. Chaque matin de ski, la routine de 5 minutes. Si janvier et février ont bien tenu, les journées peuvent être plus longues qu'à Noël ; arrête toujours avant d'être épuisé. La semaine compte automatiquement pour ta série.",
+   "checklist": true
+  },
+  {
+   "id": "marBack",
+   "kind": "reprise",
+   "from": "2027-03-15",
+   "to": "2027-03-21",
+   "title": "Semaine de reprise",
+   "text": "Reprends les séances à la moitié de leur dose. Aucune montée de palier cette semaine ; la progression reprend le lundi 22 mars.",
+   "note": "Semaine de reprise : moitié de chaque dose."
+  }
+ ],
+ "skiChecklist": [
+  "Fixations réglées en magasin avec ton poids, ta taille, ton âge et ton niveau réel, sans le surestimer.",
+  "Protection de poignet si ton chirurgien la recommande.",
+  "Short de protection rembourré.",
+  "Avec les enfants : évite les longues séquences en V, genoux alignés avec les pieds.",
+  "Chutes : bras vers l'avant, jamais assis en arrière avec les hanches plus basses que les genoux, et ne cherche pas à te relever tant que tu glisses.",
+  "Premiers jours courts ; arrête avant d'être épuisé.",
+  "Bois régulièrement, et prends ton temps pour te relever après une pause assise."
+ ],
+ "milestones": [
+  {
+   "id": "xmasCheck",
+   "date": "2026-11-15",
+   "until": "2026-11-30",
+   "title": "Point ski de Noël",
+   "text": "Accord du chirurgien obtenu, ski tranquille prévu. Si ta douleur au réveil reste à 4 ou plus, ou si tu as eu une poussée dans les deux dernières semaines, prévois des journées très courtes."
+  },
+  {
+   "id": "xmasPrep",
+   "date": "2026-12-14",
+   "until": "2026-12-20",
+   "title": "Ski dans deux semaines",
+   "text": "La semaine allégée commence le lundi 21 décembre. D'ici là, prépare la liste de contrôle : réglage des fixations, protection de poignet si recommandée, short de protection."
+  },
+  {
+   "id": "marPrep",
+   "date": "2027-02-15",
+   "until": "2027-02-28",
+   "title": "Ski de mars dans trois semaines",
+   "text": "La semaine allégée commence le lundi 1er mars. Si les dates du séjour ont changé, préviens Claude pour mettre le plan à jour, et reprends la liste de contrôle ski."
+  }
+ ]
+}
