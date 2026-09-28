@@ -428,4 +428,60 @@ test('jalon du 15 novembre : affiché jusqu\'au 30, une seule fois', () => {
   assert.strictEqual(E.milestoneCards(fresh(), plan, '2026-12-01').length, 0, 'périmé');
 });
 
+
+test('tableau de la semaine : 6 cases, la séance encadrée remplit Gym', () => {
+  const s = fresh();
+  sess(s, D(0), 'A'); sess(s, D(2), 'R');
+  const b = E.weekBoard(s, plan, D(3));
+  assert.strictEqual(b.slots.length, 6);
+  assert.strictEqual(b.slots.filter(x => x.done).length, 2);
+  assert.strictEqual(b.slots[5].type, 'D');
+  assert.strictEqual(b.slots[5].done.type, 'R');
+  s.travel[START] = true;
+  assert.strictEqual(E.weekBoard(s, plan, D(3)).slots.length, 4);
+});
+
+test('niveaux façon piste : verte, bleue à 8 paliers, rouge à 20', () => {
+  const s = fresh();
+  assert.strictEqual(E.levelInfo(s, plan).name, 'piste verte');
+  s.paliers = { A2: 3, C2: 4, D2: 1 };
+  const l = E.levelInfo(s, plan);
+  assert.strictEqual(l.name, 'piste bleue');
+  assert.strictEqual(l.toNext, 12);
+  assert.ok(E.badges(s, plan, D(0)).find(b => b.name === 'Piste bleue').got);
+});
+
+test('prochain badge et récompense', () => {
+  const s = fresh();
+  s.settings.rewards = { 4: 'Nouvelle bande' };
+  const nb = E.nextBadge(s, plan, D(0));
+  assert.strictEqual(nb.weeks, 4);
+  assert.strictEqual(nb.reward, 'Nouvelle bande');
+});
+
+test('historique des paliers : montées et redescente', () => {
+  const s = fresh();
+  tolerated(s, 'C', [2, 9]);
+  const up = E.upProposal(s, plan, 'C', D(10));
+  E.applyDecision(s, plan, up, true, [up.candidates[0].key, up.candidates[1].key], clock++, D(10));
+  let h = E.palierHistory(s, plan, D(10));
+  assert.strictEqual(h[h.length - 1].total, 2);
+  for (let i = 10; i < 16; i++) ck(s, D(i), 3, 3);
+  sess(s, D(16), 'C'); ck(s, D(17), 8, 3);
+  E.applyDecision(s, plan, E.flareProposals(s, plan, D(17))[0], true, null, clock++, D(17));
+  h = E.palierHistory(s, plan, D(17));
+  assert.strictEqual(h[h.length - 1].total, 0);
+  assert.strictEqual(E.levelInfo(s, plan).total, 0);
+});
+
+test('bilan mensuel : proposé toutes les 4 semaines, une fois', () => {
+  const s = fresh();
+  assert.strictEqual(E.monthlyCard(s, plan, D(27)).length, 0);
+  const c = E.monthlyCard(s, plan, D(28));
+  assert.strictEqual(c.length, 1);
+  E.applyDecision(s, plan, c[0], true, null, clock++, D(28));
+  assert.strictEqual(E.monthlyCard(s, plan, D(30)).length, 0);
+  assert.strictEqual(E.monthlyCard(s, plan, D(56)).length, 1);
+});
+
 console.log('\n' + passed + ' tests réussis.');

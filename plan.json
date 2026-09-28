@@ -1,5 +1,5 @@
 {
- "version": 6,
+ "version": 7,
  "week": {
   "1": "A",
   "2": "B",
@@ -25,7 +25,7 @@
  },
  "sessions": {
   "A": {
-   "name": "Membres inférieurs",
+   "name": "Pied, cheville, hanche et bassin",
    "kind": "short",
    "minutes": 10,
    "stable": 3,
@@ -130,10 +130,12 @@
      ]
     }
    ],
-   "label": "A"
+   "label": "Jambes",
+   "title": "Jambes",
+   "phrase": "séance Jambes"
   },
   "B": {
-   "name": "Tronc et épaules",
+   "name": "Tronc, épaules et poussée",
    "kind": "short",
    "minutes": 10,
    "stable": 3,
@@ -239,10 +241,12 @@
      ]
     }
    ],
-   "label": "B"
+   "label": "Haut",
+   "title": "Haut du corps",
+   "phrase": "séance Haut du corps"
   },
   "C": {
-   "name": "Maison ou hôtel",
+   "name": "Force, à la maison ou à l'hôtel",
    "kind": "long",
    "minutes": 30,
    "stable": 2,
@@ -405,10 +409,12 @@
      ]
     }
    ],
-   "label": "C"
+   "label": "Maison",
+   "title": "Maison",
+   "phrase": "séance Maison"
   },
   "D": {
-   "name": "Gym",
+   "name": "Force, avec haltères et banc",
    "kind": "long",
    "minutes": 30,
    "stable": 2,
@@ -570,22 +576,26 @@
      ]
     }
    ],
-   "label": "D"
+   "label": "Gym",
+   "title": "Gym",
+   "phrase": "séance Gym"
   },
   "R": {
    "label": "Encadrée",
-   "name": "Reformer ou kiné",
+   "name": "Reformer ou kiné, à la place de Gym",
    "kind": "long",
    "minutes": 60,
    "stable": 2,
    "replaces": "D",
    "slots": [],
    "noProgress": true,
-   "flareText": "Signale cette réaction à ton instructeur ou à ton kiné avant la prochaine séance encadrée, et garde tes doses habituelles sur les autres séances."
+   "flareText": "Signale cette réaction à ton instructeur ou à ton kiné avant la prochaine séance encadrée, et garde tes doses habituelles sur les autres séances.",
+   "title": "Encadrée",
+   "phrase": "séance encadrée"
   },
   "S": {
    "label": "Ski",
-   "name": "Routine du matin",
+   "name": "Chaque matin de ski",
    "kind": "short",
    "minutes": 5,
    "stable": 99,
@@ -650,7 +660,9 @@
       }
      ]
     }
-   ]
+   ],
+   "title": "Routine ski",
+   "phrase": "routine ski"
   }
  },
  "intros": [
@@ -662,7 +674,7 @@
     "C",
     "D"
    ],
-   "text": "S'ajoute dans C après l'assis debout, et remplace l'assis debout au banc dans D."
+   "text": "S'ajoute dans Maison après l'assis debout, et remplace l'assis debout au banc dans Gym."
   },
   {
    "id": "floorPress",
@@ -671,7 +683,7 @@
    "types": [
     "D"
    ],
-   "text": "Remplace la planche sur les coudes dans D ; la planche latérale reste en B. Commence avec une charge que tu pourrais pousser 20 fois, nettement en dessous de tes essais récents."
+   "text": "Remplace la planche sur les coudes dans Gym ; la planche latérale reste dans Haut du corps. Commence avec une charge que tu pourrais pousser 20 fois, nettement en dessous de tes essais récents."
   },
   {
    "id": "stepDown",
@@ -680,7 +692,7 @@
    "types": [
     "D"
    ],
-   "text": "Remplace les mollets dans D, qui restent travaillés en A. C'est un exercice de freinage : surveille les courbatures."
+   "text": "Remplace les mollets dans Gym, qui restent travaillés dans Jambes. C'est un exercice de freinage : surveille les courbatures."
   },
   {
    "id": "lateralWalk",
@@ -689,7 +701,7 @@
    "types": [
     "A"
    ],
-   "text": "En alternance avec l'abduction couchée dans A."
+   "text": "En alternance avec l'abduction couchée dans Jambes."
   },
   {
    "id": "splitSquatIso",
@@ -698,7 +710,7 @@
    "types": [
     "C"
    ],
-   "text": "Remplace le pont dans C, d'abord en tenue immobile. Si le bas du dos ou le bassin réagit, c'est le premier exercice à retirer."
+   "text": "Remplace le pont dans Maison, d'abord en tenue immobile. Si le bas du dos ou le bassin réagit, c'est le premier exercice à retirer."
   },
   {
    "id": "intervals",
@@ -707,7 +719,7 @@
    "types": [
     "D"
    ],
-   "text": "Remplacent les 4 minutes faciles au début de D."
+   "text": "Remplacent les 4 minutes faciles au début de Gym."
   },
   {
    "id": "hinge",
@@ -716,7 +728,7 @@
    "types": [
     "C"
    ],
-   "text": "Remplace la rotation externe couché dans C ; la rotation externe reste en B. Petite amplitude au début. Si le bas du dos ou le bassin réagit, on le retire."
+   "text": "Remplace la rotation externe couché dans Maison ; la rotation externe reste dans Haut du corps. Petite amplitude au début. Si le bas du dos ou le bassin réagit, on le retire."
   }
  ],
  "exercises": {
@@ -1365,15 +1377,17 @@
   "Au sol, toujours sur un tapis ou une serviette pliée."
  ],
  "logic": [
-  "La semaine compte, pas le jour : l'app propose la séance qui reste à faire cette semaine (en priorité celle prévue ce jour là), jamais une séance longue moins de 48 heures après la précédente. Tu peux toujours en choisir une autre.",
+  "La semaine type compte 6 séances : 2 Jambes et 2 Haut du corps de 10 minutes, 1 Maison et 1 Gym de 30 minutes. La semaine plancher, en voyage, en compte 4 : Jambes, Haut du corps, Jambes et Maison. Une séance encadrée remplace Gym ; une séance Maison peut aussi remplacer Gym.",
+  "La semaine compte, pas le jour : l'app propose la séance qui reste à faire, en priorité celle prévue ce jour là, et jamais une séance longue moins de 48 heures après la précédente. Touche une case du tableau de la semaine pour choisir une autre séance.",
   "Autour des séjours ski : semaine allégée avant le départ, routine de 5 minutes chaque matin de ski, semaine de reprise au retour. Aucune montée de palier ni nouvel exercice pendant ces trois périodes ; une redescente reste possible si besoin.",
   "Ton niveau habituel est la médiane de tes points du matin des 7 jours précédents. Un écart de 1 point est toléré comme bruit de mesure.",
   "Une séance est bien tolérée si l'effort reste sous 7 sur 10, la douleur ne monte pas de plus de 2 points pendant la séance, la technique est propre, et le lendemain matin tu es revenu à ton niveau habituel, sans courbatures fortes. Des courbatures 3 matins de suite la rendent non tolérée.",
   "Une séance sans point du matin le lendemain n'est pas évaluée : elle ne compte ni pour ni contre.",
-  "Montée proposée après 3 séances A ou B bien tolérées de suite, ou 2 séances C ou D, depuis le dernier changement. Une seule variable change, sur un ou deux exercices au maximum.",
+  "Montée proposée après 3 séances Jambes ou Haut du corps bien tolérées de suite, ou 2 séances Maison ou Gym, depuis le dernier changement. Une seule variable change, sur un ou deux exercices au maximum.",
   "Poussée : douleur au réveil supérieure de plus de 2 points à ton niveau habituel, courbatures fortes, courbatures 3 matins de suite, ou douleur de plus de 2 points pendant une séance. L'app propose alors de revenir sur la dernière montée de la séance concernée, ou de redescendre d'un palier, et bloque les montées sur cette séance pendant une semaine.",
   "Nouveaux exercices : proposés à partir de leur date, un par un, quand les séances concernées sont bien tolérées.",
-  "Rien ne change sans ta validation."
+  "Rien ne change sans ta validation.",
+  "Niveau : chaque palier franchi compte 1 point de progression. Piste verte au départ, bleue à 8 paliers, rouge à 20, noire à 35. Une redescente retire les paliers concernés."
  ],
  "targetOrder": [
   "A",
@@ -1385,37 +1399,47 @@
  ],
  "tests": {
   "every": 14,
-  "intro": "Toutes les deux semaines, pour suivre tes progrès : des repères, pas des barrières. Arrête chaque tenue à 60 s, ou dès que la technique se dégrade.",
+  "intro": "Toutes les deux semaines, environ 5 minutes. Ce sont des repères pour voir tes progrès, pas des barrières : rien ne dépend d'un bon ou d'un mauvais chiffre.",
   "items": [
    {
     "key": "balL",
     "label": "Équilibre sur la jambe gauche, yeux ouverts",
     "unit": "secondes",
-    "max": 60
+    "max": 60,
+    "kind": "time",
+    "how": "Pieds nus, près d'un mur, yeux ouverts. Lève le pied droit, puis démarre le chrono. Arrête dès que le pied levé touche le sol ou que tu te rattrapes au mur, et au plus tard à 60 s."
    },
    {
     "key": "balR",
     "label": "Équilibre sur la jambe droite, yeux ouverts",
     "unit": "secondes",
-    "max": 60
+    "max": 60,
+    "kind": "time",
+    "how": "Pieds nus, près d'un mur, yeux ouverts. Lève le pied gauche, puis démarre le chrono. Arrête dès que le pied levé touche le sol ou que tu te rattrapes au mur, et au plus tard à 60 s."
    },
    {
     "key": "spL",
     "label": "Planche latérale genoux, sur le coude gauche",
     "unit": "secondes",
-    "max": 60
+    "max": 60,
+    "kind": "time",
+    "how": "Planche latérale sur le coude gauche, genoux pliés, poing fermé, comme dans Haut du corps. Démarre le chrono une fois les hanches levées. Arrête quand elles descendent ou que la technique se dégrade, et au plus tard à 60 s."
    },
    {
     "key": "spR",
     "label": "Planche latérale genoux, sur le coude droit",
     "unit": "secondes",
-    "max": 60
+    "max": 60,
+    "kind": "time",
+    "how": "Même test sur le coude droit."
    },
    {
     "key": "row",
     "label": "Rowing à la bande, répétitions propres, toujours la même bande",
     "unit": "répétitions",
-    "max": 100
+    "max": 30,
+    "kind": "reps",
+    "how": "Rowing à la bande, toujours la même bande et le même nombre de pas depuis la porte. Compte les répétitions propres au tempo habituel, jusqu'à ce que la technique se dégrade, et au plus tard 30."
    }
   ]
  },
@@ -1515,5 +1539,28 @@
    "title": "Ski de mars dans trois semaines",
    "text": "La semaine allégée commence le lundi 1er mars. Si les dates du séjour ont changé, préviens Claude pour mettre le plan à jour, et reprends la liste de contrôle ski."
   }
- ]
+ ],
+ "levels": [
+  {
+   "name": "piste verte",
+   "min": 0,
+   "color": "#2E8B57"
+  },
+  {
+   "name": "piste bleue",
+   "min": 8,
+   "color": "#1F6FB2"
+  },
+  {
+   "name": "piste rouge",
+   "min": 20,
+   "color": "#C8372D"
+  },
+  {
+   "name": "piste noire",
+   "min": 35,
+   "color": "#111111"
+  }
+ ],
+ "badgeRewardsHint": "Récompenses à te faire quand tu atteins une série : laisse vide si tu n'en veux pas."
 }

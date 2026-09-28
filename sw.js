@@ -1,5 +1,5 @@
 // Réseau d'abord (pour recevoir les mises à jour du plan), cache en secours (hors ligne).
-const CACHE = 'socle-v1';
+const CACHE = 'socle-v2';
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'plan.json', 'manifest.json', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
